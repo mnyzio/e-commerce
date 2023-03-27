@@ -7,8 +7,6 @@ class ProductTag extends Model {}
 ProductTag.init(
   {
     //todo define columns
-    //? do I need ID ?
-    //? not sure about my reference statements
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
